@@ -5,7 +5,7 @@ use pallas::{
     crypto::hash::Hash,
     ledger::{
         primitives::Epoch,
-        traverse::{Era, MultiEraBlock, MultiEraCert, MultiEraTx, MultiEraUpdate},
+        traverse::{MultiEraBlock, MultiEraCert, MultiEraTx, MultiEraUpdate},
     },
 };
 use serde::{Deserialize, Serialize};
